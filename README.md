@@ -14,7 +14,6 @@ DATABASE_PORT=5432
 DATABASE_USER=postgres
 DATABASE_PASSWORD=9999
 
-
 ## Install npm first to install the node modules
 $ npm install
 
@@ -27,6 +26,10 @@ $ npm run migration:run
 ```bash
 # Running this code will now start the parsing process of CSV and will proceed to save to the PostGres Database
 $ npm run start
+
+# Web Application will now start.
+![image](https://user-images.githubusercontent.com/112599286/231544061-1227b86a-29fb-470f-bf53-9d5bad4649a4.png)
+
 ```
 
 ## Postman Testing
