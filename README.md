@@ -32,6 +32,9 @@ $ npm run start
 
 ```
 
+![image](https://user-images.githubusercontent.com/112599286/231544229-6207656b-2308-417f-ab4b-627840716ac9.png)
+
+
 ## Postman Testing
 
 ```bash
