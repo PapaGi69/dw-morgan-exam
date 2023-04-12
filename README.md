@@ -9,7 +9,7 @@ Techstack: NestJS, PostGres
 ## Installation
 
 ```bash
-## Fill in you local .env values. Here are my environment variables on my local.
+## Fill in you local .env values. Here are my environment variables as an example on my local.
 DATABASE_HOST=localhost
 DATABASE_NAME=examdb
 DATABASE_PORT=5432
@@ -26,7 +26,7 @@ $ npm run migration:run
 ## Running the app
 
 ```bash
-# Running this code will now start the parsing process of CSV and will proceed to save to the PostGres Database
+# Running this code will now start the parsing process of CSV and will proceed to save to the PostGreSQL Database
 $ npm run start
 ```
 # Web Application will now start.
