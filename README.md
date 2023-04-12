@@ -1,25 +1,24 @@
 
 ## DW Morgan Technical Exam
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Create a simple web application given the requirements below using any programming language and
+PostgreSQL as the database.
 
 ## Installation
 
 ```bash
+## Install npm first to install the node modules
 $ npm install
+
+## Run migration to create table covid_observation
+$ npm run migration:run
 ```
 
 ## Running the app
 
 ```bash
-# development
+# Running this code will now start the parsing process of CSV and will proceed to save to the PostGres Database
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
