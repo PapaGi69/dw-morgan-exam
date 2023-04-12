@@ -26,12 +26,8 @@ $ npm run migration:run
 ```bash
 # Running this code will now start the parsing process of CSV and will proceed to save to the PostGres Database
 $ npm run start
-
-# Web Application will now start.
-![image](https://user-images.githubusercontent.com/112599286/231544061-1227b86a-29fb-470f-bf53-9d5bad4649a4.png)
-
 ```
-
+# Web Application will now start.
 ![image](https://user-images.githubusercontent.com/112599286/231544229-6207656b-2308-417f-ab4b-627840716ac9.png)
 
 
