@@ -1,5 +1,5 @@
 
-## DW Morgan Technical Exam
+## DW Morgan Technical Exam by Reginald San Jose
 
 Create a simple web application given the requirements below using any programming language and
 PostgreSQL as the database.
@@ -7,6 +7,14 @@ PostgreSQL as the database.
 ## Installation
 
 ```bash
+## Fill in you local .env values. Here are my environment variables on my local.
+DATABASE_HOST=localhost
+DATABASE_NAME=examdb
+DATABASE_PORT=5432
+DATABASE_USER=postgres
+DATABASE_PASSWORD=9999
+
+
 ## Install npm first to install the node modules
 $ npm install
 
@@ -21,29 +29,9 @@ $ npm run migration:run
 $ npm run start
 ```
 
-## Test
+## Postman Testing
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+GET: http://localhost:3000/top/confirmed?observation_date=2020-01-24&max_results=45
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
