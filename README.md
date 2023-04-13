@@ -38,4 +38,7 @@ $ npm run start
 ```bash
 GET: http://localhost:3000/top/confirmed?observation_date=2020-01-24&max_results=45
 ```
+# Proof of working web application
+![image](https://user-images.githubusercontent.com/112599286/231687960-98ab1c86-64fb-4b79-90d3-e185f476ea7d.png)
+
 
